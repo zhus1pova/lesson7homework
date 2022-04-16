@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/korzinka"
+        android:title="your zakazy"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ourmenu"
+        android:title="our menu"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/acc"
+        android:title="my accaunt" />
+    <item
+        android:id="@+id/map"
+        android:title="map" />
+</menu>
